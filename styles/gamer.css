@@ -153,6 +153,7 @@ nav ul li a{
     gap: 20px;
     padding: 50px 0px;
 }
+
 .single-img img{
     width: 100%;
 }
@@ -291,10 +292,19 @@ nav ul li a{
     row-gap: 20px;
 }
 .games-card{
-    width: 19%;
+    width: 17%;
+    border: 1px solid transparent;
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 5px 9px;
+    border-radius: 48px;
+    transition: all .35s ease-in-out;
+}
+.games-card:hover{
+    border: 1px solid #ff42a5;
+    color: #FF42A5; 
+    padding: 5px 9px;
 }
 
 /* footer Styles */

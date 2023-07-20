@@ -14,6 +14,14 @@
         flex-direction: column-reverse;
         gap: 20px;
     }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-content p{
+        text-align: left;
+        margin-left: 13px;
+        font-size: 14px;
+    }
     .gamer-inside{
         flex-direction: column;
         align-items: center;
@@ -24,6 +32,8 @@
     }
     .funnyGames-cards{
         flex-direction: column;
+        width: 82%;
+        margin: auto;
     }
     .single-img {
         width: 100%;
@@ -36,10 +46,94 @@
     }
     .instantly-img {
         width: 100%;
-        padding: 50px 0px;
+        padding:0px;
         position: relative;
+        margin-bottom: 65px;
+
+    }
+    .careers-item{
+        margin-bottom: 0px;
     }
     .careers-content {
         width: 100%;
+        text-align: center;
+        /* text-align: justify; */
+    }
+    .careers-content > p{
+        text-align: justify;
+    }
+    .careers{
+        margin-top: 50px;
+    }
+    .careersall{
+        background-image: none;
+    }
+    .item-left{
+        text-align: left;
+    }
+    .games-card {
+        width: 24%;
+        gap: 0px;
+    }
+    .title{
+        font-size: 35px;
+        text-align: center;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .banner-content h1{
+        font-size: 70px;
+        text-align: center;
+    }
+    .games-card p {
+        font-size: 10px;
+        margin-left: 5px;
+        text-align: left;
+    }
+    .games-card img {
+        width: 28px;
+    }
+    .logo img {
+        width: 24%;
+    }
+    footer ul {
+        column-gap: 32px;
+        flex-wrap: wrap;
+        font-size: 15px;
+    }
+    .ficon{
+        column-gap: 74px;
+    }
+    .front-img {
+        top: 190px;
+        padding: 34px;
+        width: 140px;
+        left: -33px;
+    }
+    .back-img {
+        width: 70%;
+        border-radius: 8px;
+        padding: 50px;
+    }
+    .PlayOnline {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .Online-content {
+        padding-left: 0px;
+        width: 94%;
+        text-align: center;
+    }
+    .back-online {
+        width: 71%;
+        padding: 50px;
+    }
+    .front-online {
+        position: absolute;
+        left: 198px;
+        top: 161px;
+        width: 140px;
     }
 }
+
