@@ -136,4 +136,62 @@
         width: 140px;
     }
 }
-
+/* Tablet responsive */
+    @media screen and (min-width:577px) and (max-width:1024px) {
+        nav {
+           flex-direction: column;
+           gap:10px;
+        } 
+        .header-banner{
+            flex-direction: column-reverse;
+            gap: 20px;
+            background-image: none;
+        }
+        .gamer-inside{
+            flex-direction: column;
+        }
+        .funnyGames-cards{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .instantly{
+            flex-direction: column;
+        }
+        .instantly-content {
+            padding-right: 0px;
+            text-align: center;
+        }
+        .gamer-content {
+            width: 100%;
+            text-align: center;
+        }
+        .PlayOnline{
+            flex-direction: column-reverse;
+            padding-top: 50px;
+        }
+        .Online-content{
+            width:100%;
+            padding-left: 0px;
+            text-align: center;
+        }
+        .careers-content{
+            width: 100%;
+        }
+        .games-cards {
+            column-gap: 0px;
+            row-gap: 15px;
+        }
+        .games-card {
+            width: 30%;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 5px 9px;
+            border-radius: 48px;
+            transition: all .35s ease-in-out;
+        }
+        .careersall{
+            background-image: none;
+        }
+    }
